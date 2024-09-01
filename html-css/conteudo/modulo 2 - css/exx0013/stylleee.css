@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: brown;
+    background-color: azure;
+}
+
+h2 {
+    color: brown;
+    background-color: #FFFFFF;
+}
+
+p {
+    color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}

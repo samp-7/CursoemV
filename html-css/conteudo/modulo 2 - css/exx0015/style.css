@@ -1,0 +1,38 @@
+body {
+    background-color: #0d1620;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #08263e;
+}
+
+h1#principal {
+    background-color: #0d1620;
+    color: rgba(255, 255, 255, 0.801);
+    text-align: center;
+}
+
+h2 {
+    color: #0A3758;
+}
+
+.intermedio {
+    color: #181246;
+}
+
+.avancado {
+    color: #260c63;
+}
+
+.socorro {
+    color: #080d47;
+}
+
+.destque {
+    background-color: #0d162033;
+}
+
+p {
+    color: #ffffff;
+}
