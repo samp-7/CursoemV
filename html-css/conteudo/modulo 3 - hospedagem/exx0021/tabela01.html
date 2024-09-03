@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela grabnde</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+        width: 500px;
+        border-collapse: collapse;
+
+    }
+
+    td, th {
+
+        padding: 10px;
+        border: 1px solid black
+        
+    }
+
+    thead, tfoot {
+        background-color: darkred;
+        color: white 
+    }
+
+    .numero {
+        background-color: darkkhaki;
+    }
+
+    .cidade {
+        color: white;
+
+        background-color: blueviolet;
+    }
+    
+    #direita {
+        text-align: right;
+    }
+
+    .socorro {
+        text-align: center;
+    }
+
+    caption {
+        padding: 10px;
+        font-weight: bolder;
+        font-size: 19px;
+        background-color: rgb(173, 105, 105);
+        color: white;
+    }
+
+
+</style>
+<body>
+    <h1>estados em tabela</h1>
+    <table>
+        <caption>
+            SO COMO AMIGA
+        </caption>
+        <thead>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td class="cidade">São Paulo</td>
+                <td class="numero" id="direita">24134.24334</td>
+            </tr>
+            <tr>
+                <td class="numero">Rio de Janeiro</td>
+                <td class="cidade" id="direita">4743947831</td>
+            </tr>
+            <tr>
+                <td class="cidade">Amazonas</td>
+                <td class="numero" id="direita">8471390</td>
+            </tr>
+            <tr>
+                <td class="numero">Ceára</td>
+                <td class="cidade" id="direita">4743947831</td>
+            </tr>
+            <tr>
+                <td class="cidade">Amapa</td>
+                <td class="numero" id="direita">4743947831</td>
+            </tr>
+            <tr>
+                <td class="numero">Bahia</td>
+                <td class="cidade" id="direita">4743947831</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de gente</th>
+                <td class="socorro">000909</td>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+</html>
