@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafios</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+           
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-weight: bold;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        #sex {
+            text-align: left;
+            background-color: darkgreen;
+            color: white;
+        }
+
+        #drugs {
+            background-color: darkgreen;
+            color: white;
+        }
+
+        .notas {
+            width: 600px;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        .num {
+            text-align: center;
+        }
+
+        thead.xereca {
+            background-color: darkgreen;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Desafio: Filmes</h1>
+    <table>
+        <caption>FAVORITE MOVIES</caption>
+        <thead>
+            <tr>
+                <th scope="col">GRUPO</th>
+                <th scope="col">NOMES</th>
+                <th colspan="4" scope="colgroup">FILMES</th>
+            </tr>
+        </thhead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="colgroup">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Fight Club</td>
+                <td>Inception</td>
+                <td>American Psycho</td>
+                <td>Nightcrawler</td>
+            </tr>
+            <tr>
+                <td>Amanda Pereira</td>
+                <td>Demolition</td>
+                <td>Taxi Driver</td>
+                <td>Gia</td>
+                <td>The Dark Knight</td>
+            </tr>
+            <tr>
+                <td>Veronika Hansen</td>
+                <td>The Conjuring</td>
+                <td>Kill Bill</td>
+                <td>Maxxine</td>
+                <td>Se7en</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="colgroup" id="lalalla">Homens</th>
+                <td>Bruno Silva</td>
+                <td>Jenifer's Body</td>
+                <td>Perfect Blue</td>
+                <td>Speak</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td>Jean Souza</td>
+                <td>Americam Fiction</td>
+                <td>Carol</td>
+                <td>Psycho</td>
+                <td>Scream</td>
+            </tr>
+            <tr>
+                <td>Christopher Hansen</td>
+                <td>Americam Beauty</td>
+                <td>Pearl</td>
+                <td>Maze Runner</td>
+                <td>The Fall Guy</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Desafio: Notas</h1>
+    <table class="notas">
+        <thead class="xereca">
+            <tr>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" id="sex">Média de Exatas</th>
+                <th id="drugs">0.0</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>Hístoria</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td>Artes</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td> 
+            </tr>
+            <tr>
+                <th colspan="4" id=sex>Média de Humanas</th>
+                <th id="drugs">0.0</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
