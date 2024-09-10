@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mai di novu</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nomwe</label>
+            <input type="text" name="inome" id="inome" required maxlength="9" placeholder="ola gostaria" autocomplet="name">
+        </p>
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="imedia" id="imedia" min="0" max="10" value="5" step="0.10">
+        </p>
+        <p>
+            <label for="idata">data</label>
+            <input type="date" name="idata" id="idata" value="1997-09-20">
+        </p>
+        <p>
+            <label for="imes">Mes</label>
+            <input type="month" name="imes" id="imes">
+        </p>
+        <p>
+            <label for="ihora">hora</label>
+            <input type="time" name="ihora" id="ihora">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
