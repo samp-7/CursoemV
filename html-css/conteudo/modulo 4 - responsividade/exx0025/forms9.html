@@ -7,12 +7,12 @@
 </head>
 <body>
     <form action="cadastro.php" autocomplete="on" method="get">
-
         <p>
             <label for="inum">numero</label>
-            <input type="range" name="numero" id="inum" min="0" max="10" value="5">
-            output
+            <input type="range" name="numero" id="inum" min="0" max="10" value="5" oninput="ival.innerHTML =  Number(inum.value)">
+            <output id="ival">5</output>
         </p>
+        <!-- FODA PRA CARALHO PARSA ESSE ONINPUT -->
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
