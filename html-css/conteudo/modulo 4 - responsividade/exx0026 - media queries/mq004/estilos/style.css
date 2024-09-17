@@ -1,0 +1,51 @@
+/* versao mobile first */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    height: 100vh;
+}
+
+body {
+    background: black url(../imagens/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main {
+    background-color: #ffffffb6;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 0px #00000096;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+#phone { display: block; }
+#tablet { display: none; }
+#print { display: none; }
+#pc { display: none; }
+#tv { display: none;  }
+
+/* interesssante colocar em uma linha so  */
+
+/* mobile first é basicamente "priorizar o acesso pelo celular, fazendo primeiro a versao pra celular e etc */
