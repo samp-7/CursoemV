@@ -19,7 +19,7 @@ h1 {
     padding: 10px;
 }
 
-/* declaracao retrato9 */
+/* declaracao retratro */
 @media screen and (orientation: portrait) {
     body {
         background: url(../imagens/cev-portrait.jpg);
