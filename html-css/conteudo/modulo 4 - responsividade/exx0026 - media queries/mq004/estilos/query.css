@@ -1,5 +1,70 @@
 /* todas as demais miidias */
 
+/* typical devices breakpoints
+
+(phones, 600px and down)
+(portrait tablets and large phones, 600px and up)
+(landscape tablets, 768px and up)
+(laptops/desktops, 992px and up)
+(large laptops and desktops, 1200px and up) */
+
 @media print {
-    
+    /* desnecessario background para impressora pois essa merda no imprime */
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'gostrou ne kkkkk';
+        text-decoration: overline;
+    }
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    #phone { display: none;}
+    #print { display: block;}
+}
+
+/* impressora, tablet, pc, telas grandes */
+
+@media  screen and (min-width: 768px) and (max-width: 992px) { 
+    body { 
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    main {
+        background-color: #0000009f;
+    }
+
+    #tablet {display: block;}
+    #phone { display: none;}
+}
+
+@media  screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    main {
+        background-color: #6e0cc9a6;
+    }
+
+    #phone { display: none;}
+    #pc { display: block;}
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    #phone { display: none;}
+    #tv { display: block;}
 }
