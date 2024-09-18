@@ -1,0 +1,22 @@
+/* Estilos para a barra de progresso */
+.progress-bar {
+    width: 100%;
+    background-color: #E0E0E0; /* Cor de fundo da barra (cinza claro) */
+    border-radius: 5px; /* Bordas arredondadas */
+    height: 20px; /* Altura da barra */
+    margin-bottom: 10px; /* Espaço entre as barras */
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%; /* Preenche a altura completa da barra */
+    background-color: #0A3758; /* Cor da barra preenchida */
+    width: 0; /* Isso será ajustado no HTML para a porcentagem certa */
+    border-radius: 5px; /* Bordas arredondadas */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 5px;
+    color: white; /* Cor do texto de porcentagem */
+    font-weight: bold;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nível de Linguagens</title>
+    <style>
+        .range-container {
+            margin-bottom: 15px;
+        }
+
+        /* Estilos da barra */
+        input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 8px;
+            background: #ddd;
+            outline: none;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        /* Para esconder a bolinha (thumb) */
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            appearance: none;
+        }
+
+        /* Estilo da barra "preenchida" */
+        input[type="range"]::-webkit-slider-runnable-track {
+            background: linear-gradient(to right, #4CAF50, #4CAF50) no-repeat;
+        }
+
+        input[type="range"]::-moz-range-progress {
+            background-color: #4CAF50;
+        }
+
+        /* Estilo para a porcentagem */
+        .percentage {
+            font-size: 14px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="range-container">
+        <label for="nivelHtml">HTML:</label>
+        <input type="range" id="nivelHtml" min="0" max="100" value="80" disabled>
+        <span class="percentage">80%</span>
+    </div>
+
+    <div class="range-container">
+        <label for="nivelCss">CSS:</label>
+        <input type="range" id="nivelCss" min="0" max="100" value="70" disabled>
+        <span class="percentage">70%</span>
+    </div>
+
+    <div class="range-container">
+        <label for="nivelJs">JavaScript:</label>
+        <input type="range" id="nivelJs" min="0" max="100" value="60" disabled>
+        <span class="percentage">60%</span>
+    </div>
+
+</body>
+</html>
