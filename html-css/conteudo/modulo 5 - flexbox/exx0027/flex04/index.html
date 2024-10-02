@@ -6,21 +6,21 @@
     <title>flexbox</title>
     <style>
         .container { /* pai */
-            background-color: coral;
-            height: 100px;
             display: flex;
-            flex-flow: column nowrap;
+            background-color: #c5610f;
+            height: 300px;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-flow: row nowrap;
         }
 
         .item { /* filho */
-            background-color: #ded8ff;
+            background-color: #a49dc9;
             border: 1px solid black;
             text-align: center;
-            justify-content: space-between;
             padding: 10px;
-            flex: auto;
-
-            /* flex auto é quase algo pra usar a linha inteira */
+            border-radius: 10px;
+            color: white;
         }
     </style>
 </head>
