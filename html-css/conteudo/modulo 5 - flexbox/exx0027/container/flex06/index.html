@@ -7,19 +7,32 @@
     <style>
         .container {
             background-color: coral;
+            height: 400px;
             display: flex;
+            /* align-content usando wrap */
+            align-content: space-around;
+            /* no space-around, o segundo e terceiro espaço sao o dobro do primeiro e do ultimo */
+            flex-flow: row wrap;
         }
 
         .item {
+            padding: 40px;
             background-color: darkslateblue;
             border: 1px solid black;
             text-align: center;
-            flex: auto;
+            
         }
     </style>
 </head> 
 <body>
     <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
         <div class="item">A</div>
         <div class="item">B</div>
         <div class="item">C</div>
