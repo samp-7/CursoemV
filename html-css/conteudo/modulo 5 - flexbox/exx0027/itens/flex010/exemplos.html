@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initia1l-scale=1.0">
+    <title>flexie</title>
+    <style>
+        .container {
+            background-color: coral;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        .item {
+            background-color: #8a7fd1;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 200px;
+        }
+
+        #primeiro {
+            flex-grow: 0;
+            flex-shrink: 2;
+        }
+
+        #segundo {
+            flex-grow: 1;
+            flex-shrink: 1;
+            background-color: firebrick;
+        }
+
+        #terceiro {
+            flex-grow: 0;
+            flex-shrink: 2;
+        }
+
+        /* nao sei exatamente se entendi, mas aparentemente shrink 2 pode ser algo para diferenciar (se eu usar no lugar certo e com shrink 1 no lugar certo, ok?) */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="primeiro">1</div>
+        <div class="item" id="segundo">2</div>
+        <div class="item" id="terceiro">3</div>
+    </div>
+</body>
+</html>
