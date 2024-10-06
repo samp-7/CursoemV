@@ -1,0 +1,29 @@
+/* eu nao vi necessidade em usar media queries 
+
+vsfdkkkkkkkkkkkkk
+
+@media screen and (min-width: 400px) {
+    body {
+        background-color: lightcoral;
+    }
+
+    header, header > nav {
+        background-color: darkred;
+        flex-flow: column nowrap;
+    }
+    
+    header h1 {
+        flex-basis: 50px;
+    }
+
+    header nav a {
+        background-color: #302e2e;
+        color: white;
+        width: 95vw;
+    }
+
+    main {
+        background-color: #b12626;
+    }
+}
+*/
