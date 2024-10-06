@@ -14,17 +14,15 @@
         .item {
             background-color: #8a7fd1;
             border: 1px solid black;
-            text-align: center;
             flex-basis: 200px;
         }
 
-          /* podem ser simplificados com "flex" e de preferencia a essa propriedade */
+          /* shrink e grow podem ser simplificados (juntos) com "flex" e dar preferencia a essa propriedade */
 
         #primeiro {
             /* flex-grow: 1;
             flex-shrink: 0;
             flex-basis: 150px; */
-
             flex: 0 1 150px;
         }
 
@@ -51,6 +49,7 @@
         <div class="item" id="primeiro">1</div>
         <div class="item" id="segundo">2</div>
         <div class="item" id="terceiro">3</div>
+        
     </div>
 </body>
 </html>
