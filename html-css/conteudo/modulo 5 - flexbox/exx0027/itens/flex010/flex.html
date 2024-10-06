@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initia1l-scale=1.0">
+    <title>flexie</title>
+    <style>
+        .container {
+            background-color: #ff4400;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        .item {
+            background-color: #8a7fd1;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 200px;
+        }
+
+          /* podem ser simplificados com "flex" e de preferencia a essa propriedade */
+
+        #primeiro {
+            /* flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 150px; */
+
+            flex: 0 1 150px;
+        }
+
+        #segundo {
+            /* flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 150px; */
+            flex: 1 1 150px;
+            background-color: firebrick;
+        }
+
+        #terceiro {
+             /* flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 150px; */
+            flex: 0 1 150px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="primeiro">1</div>
+        <div class="item" id="segundo">2</div>
+        <div class="item" id="terceiro">3</div>
+    </div>
+</body>
+</html>
