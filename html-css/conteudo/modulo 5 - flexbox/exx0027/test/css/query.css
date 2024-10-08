@@ -1,8 +1,7 @@
-/* eu nao vi necessidade em usar media queries 
+/* eu nao vi necessidade em usar media queries  */
+/* vsfdkkkkkkkkkkkkk */
 
-vsfdkkkkkkkkkkkkk
-
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 500px) {
     body {
         background-color: lightcoral;
     }
@@ -26,4 +25,3 @@ vsfdkkkkkkkkkkkkk
         background-color: #b12626;
     }
 }
-*/
